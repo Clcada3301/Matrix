@@ -1,0 +1,15 @@
+
+.divs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    ". a a ."
+    ". a a .";
+}
+.enter {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}

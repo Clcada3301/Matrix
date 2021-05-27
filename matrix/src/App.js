@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import './App.css'
+import BlockOne from "./FirstPage/block1";
+
+import TwoPage from "./TwoPageAndMeny/TwoPage";
+import {BrowserRouter,Route} from "react-router-dom";
+
+
+
+
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+        <div className='App'>
+
+      <div>
+          <Route path="/one" component={BlockOne}/>
+          <Route path="/two/Page" component={TwoPage}/>
+      </div>
+
+
+
+
+
+
+
+
+        </div>
+</BrowserRouter>
+    );
 }
 
 export default App;
