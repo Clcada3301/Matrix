@@ -5,7 +5,7 @@ import BlockOne from "./FirstPage/block1";
 
 import TwoPage from "./TwoPageAndMeny/TwoPage";
 import {BrowserRouter,Route} from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

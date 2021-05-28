@@ -1,0 +1,30 @@
+.gridPl{
+    display: grid;
+grid-template-areas: ". pi tp . "
+                     "np pi tp . "
+                      ". pi tp . "
+;
+
+}
+.b1{
+    grid-area: b1;
+    position: absolute;
+    right: 0;
+}
+.b2{
+    grid-area: b2;
+    position: absolute;
+    left: 0;
+}
+.namePlaneta{
+    grid-area: np;
+}
+.planetaImg{
+    grid-area: pi;
+}
+.textPlaneta{
+    grid-area: tp;
+
+width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,20 @@
+.grid{
+display: grid;
+    grid-template-areas: " b1 b2 b3 b4";
+}
+.b1{
+grid-area: b1;
+    width: 140px;
+}
+.b2{
+    grid-area: b2;
+    width: 140px;
+}
+.b3{
+    grid-area: b3;
+    width: 140px;
+}
+.b4{
+    grid-area: b4;
+    width: 140px;
+}

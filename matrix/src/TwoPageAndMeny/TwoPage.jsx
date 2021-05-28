@@ -12,7 +12,7 @@ function TwoPage() {
             <div><Header/></div>
             <div><Meny/></div>
             <div><Content/></div>
-           vvwevwefwefewfurfhsjdkewfjdhscjjfkdsmn
+
 
 
 
